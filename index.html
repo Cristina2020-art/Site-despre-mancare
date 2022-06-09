@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site despre mancare</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title-logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+    <!-- ====markup header element==== -->
+    <header class="header">
+      <!-- ---header logo--- -->
+      <div class="header-logo">
+        <img src="./images/logo-img.png" alt="logo" />
+      </div>
+
+      <!-- ---navigation--- -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">acasa</a>
+          </li>
+          <li>
+            <a href="#about">despre</a>
+          </li>
+          <li>
+            <a href="#menu">meniu</a>
+          </li>
+          <li>
+            <a href="#popular">popular</a>
+          </li>
+          <li>
+            <a href="#gallery">galerie</a>
+          </li>
+          <li>
+            <a href="#order">comanda</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ---menu bar--- -->
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====markup main element==== -->
+
+    <main>
+      <!-- ====markup home section==== -->
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>credem ca mancarea buna va ofera un zambet grozav</h1>
+          <p>
+            mancarea sanatoasa este recomandata tuturor clientilor nostri
+          </p>
+          <input type="button" value="incepe" />
+        </div>
+
+        <div class="home-image">
+          <img src="./images/home-img.png" alt="Net Error" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2>cateva lucruri despre noi</h2>
+          <p>
+            va punem la dispozitie zilnic preparate culinare proaspete,sanatoase,hranitoare si gustoase .
+          </p>
+          <p>
+            preparatele noastre sunt de calitate si la preturi accesibile tuturor.
+          </p>
+
+          <input type="button" value="citeste mai mult" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="menu" class="menu">
+        <h2>meniul nostru <span>delicios</span></h2>
+        <div class="catagory">
+          <input type="button" value="mic dejun" />
+          <input type="button" class="active" value="pranz" />
+          <input type="button" value="cina" />
+          <input type="button" value="desert" />
+        </div>
+
+        <div class="catagory-img">
+          <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+        </div>
+
+        <!-- ---info content 01--- -->
+        <div class="menu-content">
+          <div class="info">
+            <h3>va servim cu cele mai bune preparate din oras</h3>
+            <p>
+              puteti alege din lista noastra de meniu care preparate va plac.
+            </p>
+          </div>
+
+          <!-- ---info content 02--- -->
+          <div class="info">
+            <h3>va asteptam cu drag sa ne treceti prsgul!</h3>
+            <p>
+              va recomandam meniul zilei si un desert delicios si racoritor la pranz.
+            </p>
+          </div>
+
+          <!-- ---info content 03--- -->
+          <div class="info">
+            <h3>va satisfacem cele mai exigente pretentii</h3>
+            <p>
+              tinem cont de sugestiile clientilor nostri si nu facem rabat de la calitate.
+            </p>
+          </div>
+
+          <!-- ---info content 04--- -->
+          <div class="info">
+            <h3>va stam la dispozitie oricand! </h3>
+            <p>
+              sa apelati cu incredere la noi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup popular section==== -->
+      <section id="popular" class="popular">
+        <h2>cel mai popular preparat</h2>
+
+        <div class="popular-content">
+          <!-- ---card 01--- -->
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>preparat delicios</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Lei 30.00</p>
+            <input type="button" value="adauga in cos" />
+          </div>
+
+          <!-- ---card 02--- -->
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>preparat gustos</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">$ 20.00</p>
+            <input type="button" value="adauga in cos" />
+          </div>
+
+          <!-- ---card 03--- -->
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4>preparat proaspat</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Lei 25.00</p>
+            <input type="button" value="adauga in cos" />
+          </div>
+
+          <!-- ---card 04--- -->
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>preparat hranitor</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Lei 28.00</p>
+            <input type="button" value="adauga in cos" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="gallery" class="galerie">
+        <h2>Galerie cu  <span>preparatele noastre</span></h2>
+
+        <div class="gallery-content">
+          <!-- ---gallery card 01--- -->
+          <div class="g-card">
+            <img src="./images/img1.jpg" alt="Net Error" />
+            <h3>Mancare delicioasa</h3>
+          </div>
+
+          <!-- ---gallery card 02--- -->
+          <div class="g-card">
+            <img src="./images/img2.jpg" alt="Net Error" />
+            <h3>Mancare gustoasa</h3>
+          </div>
+
+          <!-- ---gallery card 03--- -->
+          <div class="g-card">
+            <img src="./images/img3.jpg" alt="Net Error" />
+            <h3>Mancare proaspata</h3>
+          </div>
+
+          <!-- ---gallery card 04--- -->
+          <div class="g-card">
+            <img src="./images/img4.jpg" alt="Net Error" />
+            <h3>Mancare hranitoare</h3>
+          </div>
+
+          <!-- ---gallery card 05--- -->
+          <div class="g-card">
+            <img src="./images/img5.jpg" alt="Net Error" />
+            <h3>Mancare sanatoasa</h3>
+          </div>
+
+          <!-- ---gallery card 06--- -->
+          <div class="g-card">
+            <img src="./images/img6.jpg" alt="Net Error" />
+            <h3>Mancare satioasa</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="order" class="order">
+        <h2>fa o <span>comanda</span></h2>
+
+        <div class="order-content">
+          <form action="#" class="order-form" autocomplete="off">
+            <input type="text" placeholder="nume" required />
+            <input type="email" placeholder="email" required />
+            <input type="password" placeholder="parola" required />
+            <input type="number" placeholder="numar de telefon" required />
+            <textarea cols="30" rows="8" placeholder="adresa"></textarea>
+
+            <button type="submit">comanda acum</button>
+          </form>
+          <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+      </section>
+    </main>
+
+    <!-- ====markup footer element==== -->
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>informatii de contact</h4>
+        <p>
+          <i class="fas fa-location-dot"></i
+          ><span>Cluj-Napoca, str.Oasului,nr.20.</span>
+        </p>
+        <p><i class="fas fa-envelope"></i> <span>mancarebuna@gmail.com</span></p>
+        <p><i class="fas fa-phone"></i> <span>0264789456</span></p>
+        <p><i class="fas fa-phone"></i> <span>0743567892</span></p>
+      </div>
+
+      <div class="location">
+        <h4>amplasare local</h4>
+        <ul>
+          <li><a href="#">loc 1</a></li>
+          <li><a href="#">loc 2</a></li>
+          <li><a href="#">loc 3</a></li>
+          <li><a href="#">loc 4</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>linkuri rapide</h4>
+        <ul>
+          <li><a href="#home">acasa</a></li>
+          <li><a href="#about">despre</a></li>
+          <li><a href="#menu">meniu</a></li>
+          <li><a href="#popular">popular</a></li>
+          <li><a href="#gallery">galerie</a></li>
+          <li><a href="#order">comanda</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>Urmareste-ne</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="blank">instagram</a>
+          </li>
+          <li><a href="https://www.twitter.com" target="blank">twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="blank">linkedin</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2022 || Toate drepturile sunt rezervate.</p>
+      </div>
+    </footer>
+
+    <!-- ----linked main.js file---- -->
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
+
+
